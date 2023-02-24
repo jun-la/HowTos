@@ -10,8 +10,8 @@ sudo apt autoremove -y
 ```
 ### Xubuntu Packages to Install
 ```
-sudo apt install ssh tmux mosh rsync git jq python3-pip net-tools 
-sudo apt install rhythmbox grilo-plugins-0.3 audacious eog plank apt-transport-https
+sudo apt install ssh tmux mosh htop eog audaciou rssync git jq python3-pip net-tools 
+sudo apt install rhythmbox grilo-plugins-0.3  plank apt-transport-https
 sudo apt install csh gfortran 
 ```
 
@@ -110,6 +110,7 @@ winsat disk -ran -read -drive c
 ```
 ###  Rhythmbox DLNA 
 
+```
 After much searching on the internet without any real help I found the answer myself.
 
 In Ubuntu 14.10 the default media player Rhythmbox can be used as a music client to access DLNA server. The only problem is that not all necessary files are installed by default.
@@ -121,3 +122,4 @@ Enable Grilo DLNA client in Rhythmbox. Go to Tools -> Plugins and make sure that
 Install Grilo plugins. Open "Ubuntu Software Center", search for "grilo-plugins" and install package "grilo-plugins-0.2".
 
 You are done now. Open Rhythmbox and should already see your DLNA server in the left column. You can browse it and play your music. If you do not see it, try clicking little "+" sign on the bottom left and then "Find new devices" (or similar). See picture below.
+```
