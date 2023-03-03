@@ -1,17 +1,17 @@
-Xubuntu Tips and Commands
+Mint Linux Tips and Commands
 =========================
 
-### Xubuntu Remove packages
+### Remove packages
 ```
 sudo apt remove snapd libreoffice* thunderbird update-manager parole pidgin
 sudo apt remove unattended-upgrades ubuntu-advantage-tools
 sudo apt-mark hold snapd
 sudo apt autoremove -y
 ```
-### Xubuntu Packages to Install
+### Packages to Install
 ```
-sudo apt install ssh tmux mosh htop eog audaciou rssync git jq python3-pip net-tools 
-sudo apt install rhythmbox grilo-plugins-0.3  plank apt-transport-https
+sudo apt install ssh tmux mosh htop eog audacious rsync git jq python3-pip net-tools 
+sudo apt install rhythmbox grilo-plugins-0.3 apt-transport-https
 sudo apt install csh gfortran 
 ```
 
